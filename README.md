@@ -3,9 +3,7 @@
 A reusable, Codex-first workflow kit for coordinating a bounded Plan → Execute → Review cycle, then handing accepted work to the project’s integration owner.
 
 This repository contains a repository skill, Codex role profiles, versioned JSON contracts and templates, and a read-only Python checker. The checker validates handoff readiness; it does not start agents, persist state, or perform Git operations.
-
 ## Adapt before using
-
 The workflow is generic. **Adapt it to each project before enabling it.** Review that project’s AGENTS.md, security and data policies, approval boundaries, development tools, test strategy, and integration rules. In particular, each project must decide who can commit, merge, or push and what requires human approval. The included agent profiles are examples to copy and tailor, not universal permissions.
 
 ## Contents
