@@ -1,9 +1,0 @@
-{
-  "schema_version": "1.0",
-  "run_id": "example-001",
-  "plan_id": "plan-001",
-  "plan_sha256": "sha256:1e7f42901a226b8fbeee2a49c4e92483a3b524743e5ab8d59d989e8cb981b2ec",
-  "decision": "accepted",
-  "approver_role": "coordinator",
-  "notes": "Scope, risks, and validation plan reviewed."
-}

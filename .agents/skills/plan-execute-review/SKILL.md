@@ -1,16 +1,11 @@
 ---
 name: plan-execute-review
-description: Coordinate substantial project tasks through a versioned planning, execution, review, and integration handoff. Use when separate roles and explicit handoff evidence improve control.
+description: Coordinate substantial or risky work with a scoped plan, implementation, and independent review.
 ---
 
 # Plan, execute, review
+Use this workflow when separate roles and explicit handoffs improve control. Skip the extra planning ceremony for small, low-risk tasks.
 
-Coordinate one bounded task through planning, execution, independent review, any configured remediation, and an integration handoff.
+Before starting, read [the project adaptation guidance](references/adapting-to-a-project.md) and the target project’s instructions. Project policy controls security, approvals, dependencies, validation, and Git operations; this workflow grants no additional permissions.
 
-Before using this workflow in a repository, read [adapting the workflow](references/adapting-to-a-project.md) and inspect the target project’s instructions and policies. Apply its security, approval, validation, and Git boundaries. This kit does not grant permission to modify, commit, merge, or publish project changes.
-
-The coordinator owns the run artifacts and phase transitions. The planner proposes a plan; it does not approve its own plan. The executor works only from an accepted packet. The reviewer independently assesses the execution result. Integration remains with the owner designated by the project adapter.
-
-Use the [workflow reference](references/workflow.md) for artifact fields, checker phases, and remediation. Start from the [minimal run templates](../../../templates/minimal-run/). Before handing work to an executor, run the checker with phase executor; validate each subsequent handoff with phase review and integration.
-
-If required planning is skipped, record the reason in the run policy and executor packet. If approval or review escalates, stop the gated transition and route the decision to the project’s designated human or coordinator. Do not turn a failed check into approval by editing evidence or weakening the contract.
+Keep the plan, decisions, execution evidence, and review findings in the task thread unless the project requires a durable record. Follow [the workflow](references/workflow.md) for the role boundaries and handoffs.
