@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "run_id": "example-001",
+  "task_ref": "example:documented-behavior-change",
+  "planning": {
+    "decision": "required"
+  },
+  "approval": {
+    "mode": "coordinator"
+  },
+  "max_remediation_passes": 1,
+  "integration_policy_ref": "PROJECT.md#integration-ownership"
+}

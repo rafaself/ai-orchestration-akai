@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "run_id": "example-001",
+  "plan_sha256": "sha256:1e7f42901a226b8fbeee2a49c4e92483a3b524743e5ab8d59d989e8cb981b2ec",
+  "executor_result_sha256": "sha256:5faef204cef902d6f150afc15da76168b67c30daa8885644eb788acbc23fed71",
+  "remediation_pass": 0,
+  "outcome": "accepted",
+  "findings": []
+}

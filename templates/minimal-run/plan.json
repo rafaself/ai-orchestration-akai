@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "run_id": "example-001",
+  "plan_id": "plan-001",
+  "summary": "Add a small documented behavior change in the target project.",
+  "scope": {
+    "included": [
+      "Implement the approved behavior",
+      "Add focused validation evidence"
+    ],
+    "excluded": [
+      "Commit, merge, push, or deploy"
+    ]
+  },
+  "assumptions": [
+    "The project adapter defines the integration owner."
+  ],
+  "risks": [],
+  "requires_human_approval": false,
+  "steps": [
+    {
+      "step_id": "inspect",
+      "action": "Inspect the relevant project instructions and implementation.",
+      "acceptance_criteria": [
+        "The owned code path and local constraints are identified."
+      ],
+      "validation": [
+        "Record the relevant paths and existing coverage."
+      ]
+    },
+    {
+      "step_id": "implement",
+      "action": "Make the scoped change and validate it.",
+      "acceptance_criteria": [
+        "The requested behavior is implemented and evidence is recorded."
+      ],
+      "validation": [
+        "Run the focused project checks."
+      ]
+    }
+  ],
+  "validation_strategy": [
+    "Run the smallest reliable checks for the changed behavior."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "run_id": "example-001",
+  "status": "ready_for_integration",
+  "plan_sha256": "sha256:1e7f42901a226b8fbeee2a49c4e92483a3b524743e5ab8d59d989e8cb981b2ec",
+  "executor_result_sha256": "sha256:5faef204cef902d6f150afc15da76168b67c30daa8885644eb788acbc23fed71",
+  "review_result_sha256": "sha256:f45b71d3abfd7fde6a6bf39d8f3d408d1417a86d2d76b1a969644e41e8c4721a",
+  "integration_policy_ref": "PROJECT.md#integration-ownership",
+  "handoff_summary": "Implementation and independent review are complete; route to the project's named integration owner.",
+  "validation_evidence": [
+    "Focused checks passed.",
+    "Independent review accepted."
+  ]
+}

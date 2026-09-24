@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "run_id": "example-001",
+  "planning_decision": "required",
+  "plan_ref": {
+    "path": "plan.json",
+    "sha256": "sha256:1e7f42901a226b8fbeee2a49c4e92483a3b524743e5ab8d59d989e8cb981b2ec"
+  },
+  "remediation_pass": 0,
+  "task_instructions": "Implement only the accepted plan and follow the target project's instructions."
+}

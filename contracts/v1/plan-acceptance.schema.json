@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/rafaself/ai-orchestration-akai/contracts/v1/plan-acceptance.schema.json",
+  "title": "Plan acceptance",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run_id", "plan_id", "plan_sha256", "decision", "approver_role"],
+  "properties": {
+    "schema_version": { "type": "string", "enum": ["1.0"] },
+    "run_id": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$" },
+    "plan_id": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$" },
+    "plan_sha256": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "decision": { "type": "string", "enum": ["accepted", "changes_requested", "escalate"] },
+    "approver_role": { "type": "string", "enum": ["coordinator", "human"] },
+    "notes": { "type": "string" }
+  }
+}
